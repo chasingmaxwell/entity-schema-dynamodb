@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "debug-test": "node --inspect --debug-brk ./node_modules/.bin/jest --runInBand --env jest-environment-node-debug",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "precommit": "validate-commit-msg && yarn run lint",
+    "prepush": "yarn test"
   },
   "author": "Peter Sieg <chasingmaxwell@gmail.com>",
   "license": "MIT",
@@ -32,7 +34,9 @@
   "dependencies": {
     "aws-sdk": "^2.41.0",
     "entity-schema": "^0.0.0-development",
-    "lodash": "^4.17.4"
+    "husky": "^0.14.1",
+    "lodash": "^4.17.4",
+    "validate-commit-message": "^3.0.1"
   },
   "repository": {
     "type": "git",
