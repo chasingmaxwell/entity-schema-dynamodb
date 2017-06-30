@@ -33,5 +33,21 @@
     "aws-sdk": "^2.41.0",
     "entity-schema": "^0.0.0-development",
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasingmaxwell/entity-schema-dynamodb.git"
+  },
+  "keywords": [
+    "entity schema",
+    "JSON API",
+    "JSON Schema",
+    "data modeling",
+    "AWS",
+    "DynamoDB"
+  ],
+  "bugs": {
+    "url": "https://github.com/chasingmaxwell/entity-schema-dynamodb/issues"
+  },
+  "homepage": "https://github.com/chasingmaxwell/entity-schema-dynamodb#readme"
 }
