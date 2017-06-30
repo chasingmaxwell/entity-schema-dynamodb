@@ -1,6 +1,6 @@
 # entity-schema-dynamodb
 
-entity-schema-dynamodb utilizes [entitys-schema](https://github.com/chasingmaxwell/entity-schema) to wrap the [DynamoDB class](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html) in the AWS SDK allowing you to easily manage DynamoDB tables from an entity schema.
+entity-schema-dynamodb utilizes [entitys-schema](https://github.com/chasingmaxwell/entity-schema) to wrap the [DynamoDB class](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html) in the AWS SDK allowing you to easily manage DynamoDB tables from an entity schema. entity-schema-dynamodb is still in early development. It should not be considered stable and there are many new features planned!
 
 ## Installation
 
